@@ -1,29 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <!--Linguagem De Texto-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
-  <title>Heróis</title>
-</head>
-<body>
-  <header class="banner">
-    <h1 class="titulo-header">Super-heróis</h1>
-  </header>
-  <main>
-    <img class="foto-capa" src="http://2.bp.blogspot.com/_PRW1RHaDa7Q/TUG5DLPi2iI/AAAAAAAAAFY/G5UVyWCSwTQ/s400/batcaverna.jpg" class="batcave" alt="Foto Bat Caverna" width= "374px" height= "217.81px" left= "112px" top= "225.11px">
-    <div class="card-batman">
-      <h2 class="card-name">Batman</h2>
-      <span class="card-description">Bruce Wayne é o único personagem a se identificar como Batman e aparece em Batman, Detective Comics, Batman e Robin e Batman: O Cavaleiro das Trevas. Dick Grayson retorna ao manto de Asa Noturna</span>
-   <button class="card-button"><a target="_blank" href='https://pt.wikipedia.org/wiki/Batman'>Veja Mais!</a>
-    </div>
-  </main>
-  <footer class="footer">
-    <p class="texto-rodape"> Todos os direitos reservados a Digital House - Front-end 1 </p>
-  </footer>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Mesa 10 - Modelo de Caixas</title>
+  </head>
+  <body>
+    <header>
+      <div class="titulo">
+        <div class="header-container">
+
+        </div>
+        <h1>Super-Heróis</h1>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section>
+          <article class="card-personagem card-batman">
+            <div class="card-header">
+              <img src="./img/coracao.png" alt="" class="card-coracao">
+              <img src="#" alt="" class="card-foto-fundo">     
+              <img src="#" alt="" class="card-foto-perfil">  
+            </div>
+            <div class="card-desc"><!--Container-->
+              <h2 class="card-titulo">Batman</h2>
+              <p class="card-bio-batman">
+                Bruce Wayne é o único personagem a se identificar como Batman e aparece em Batman, Detective Comics, Batman e Robin e Batman: O Cavaleiro das Trevas. Dick Grayson retorna ao manto de Asa Noturna.
+              </p>
+              <input type="button" value="Ver Mais">
+            </div> <!--Container-->
+          </article>
+          
+          <article class="card-personagem card-arlequina">
+            <div class="card-header">
+              <img src="./img/coracao.png" alt="" class="card-coracao">
+              <img src="#" alt="" class="card-foto-fundo">
+              <img src="#" alt="" class="card-foto-perfil" >     
+            </div> 
+            <div class="card-desc"> <!--Container-->
+              <h2 class="card-titulo">Arlequina</h2>
+              <p class="card-bio-arlequina">
+                A criação de Arlequina foi uma ideia de última hora proposta pelo escritor americano Paul Dini para modificar uma cena do vigésimo segundo episódio de Batman: The Animated Series.
+              </p>
+              <input type="button" value="Ver Mais">
+            </div>
+          </article>
+        </section>
+      </div> <!--Container-->
+    </main>
+    <footer>
+      <div class="footer-container">
+        <p class="copyright">Todos os Direitos Reservados a Front-End 1 e a Digital House</p>
+      </div>
+    </footer>
+  </body>
 </html>
