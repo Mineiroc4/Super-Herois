@@ -1,0 +1,98 @@
+wid* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  position: top;
+  width: 1024px;
+  height: 101px;
+  left: 0px;
+  top: 38px;
+  background: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 16px 16px 0px 0px;
+}
+.titulo-header {
+  padding-top: 25px;
+}
+.foto-capa {
+  position: absolute;
+  width: 374px;
+  height: 217.81px;
+  left: 112px;
+  top: 225.11px;
+  border-radius: 16px 16px 0px 0px;
+}
+.card-batman {
+  position: absolute;
+  width: 374px;
+  height: 378.02px;
+  left: 112px;
+  top: 441.8px;
+  background: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer {
+  position: fixed;
+  padding-bottom: 203px;
+  left: 0;
+  bottom: 0;
+  width: 1024px;
+  top: 96%;
+  height: 51px;
+  color: white;
+  text-align: center;
+}
+
+.texto-rodape {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #00669f;
+  color: white;
+  text-align: left;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-description {
+  position: fixed;
+  width: 301.33px;
+  height: 127.53px;
+  left: 148px;
+  top: 594.1px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: black;
+}
+.card-name {
+  position: center;
+  margin-top: 25%;
+  right: 230.44px;
+  width: 137.69px;
+  height: 39.5px;
+  left: 230.44px;
+  top: 525.31px;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #000000;
+}
+.card-button {
+  position: fixed;
+  width: 145.34px;
+  height: 54.76px;
+  left: 225.93px;
+  top: 745.39px;
+  background: #00669f;
+}
